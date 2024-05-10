@@ -1,0 +1,37 @@
+REFLECTION
+
+
+
+Features that work
+
+Flight simulation
+Correctly implements itinery creation from source airport to dest airport
+Listbox
+Correctly highlighted choices and scrolled when moving past listbox bounds
+Read from file to obtain flight information
+Button class
+Allowed users to search for flights and refresh itineraries when hitting button again
+
+
+
+Features that I didn’t implement
+
+Ordering preferences
+Passengers
+Text field
+The updated inverted background code provided by that student on Piazza
+Saving itineraries to files
+
+
+
+Known bugs
+
+Scrolling is a little awkward
+Highlighting messes up sometimes if rows become too wide
+
+
+
+Features I have implemented that are worth mentioning
+
+Making my airline name funny
+Funny message when you try to fly from and to the same airport
