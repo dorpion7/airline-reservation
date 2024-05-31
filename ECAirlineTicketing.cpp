@@ -16,7 +16,7 @@ using namespace std;
 
 // edges would be all flights
 // so treat listofflights[] as adj[]
-// all implemented by Justin Hasler
+// all implemented by Justin  
 void ECAirlineTicketing::InitializeT(ECAirlineOperation *op, ECAirlineFinancial *financial)
 {
     pAirlineOp = op;
