@@ -15,7 +15,7 @@
 using namespace std;
 
 
-// implemented by Justin Hasler
+// implemented by Justin
 void ECAirlineOperation::addFlight(const std::string &srcAirport, const std::string &destAirport, double tmDepart, int maxPassengers, double costOperate)
 {
 	listFlights.push_back(ECFlight(srcAirport, destAirport, tmDepart, maxPassengers));
