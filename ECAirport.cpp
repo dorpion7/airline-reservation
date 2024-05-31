@@ -12,7 +12,7 @@
 // ECAirport
 using namespace std;
 
-// all declared in .h but fully defined by Justin Hasler
+// all declared in .h but fully defined by Justin
 // should an airport be running by default?
 ECAirport::ECAirport(const ECAirport &rhs)
 {
