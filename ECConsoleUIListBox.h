@@ -53,17 +53,17 @@ public:
 
     virtual bool IsHandlingKeys() const override { return handlingKeys; }
 
-    // implemented by Justin Hasler
+    // implemented by Justin 
     virtual void rowInit(int &rows, int &firstRow) const;
 
-    // implemented by Justin Hasler
+    // implemented by Justin 
     int GetRowIndex() const;
 
-    // implemented by Justin Hasler
+    // implemented by Justin 
     void clear(){choices.clear();} // clear vector for if we click enter to show valid itineraries
 
 private:
-    // implemented by Justin Hasler
+    // implemented by Justin 
     std::vector<std::string> choices;
     int indexChoice;
     int xUL, yUL, xLR, yLR;
