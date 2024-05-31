@@ -40,7 +40,7 @@ public:
     
 private:
     // your ocde
-    // implemented by Justin Hasler
+    // implemented by Justin 
     bool operating;
     std::string name;
     std::string code;
@@ -53,7 +53,7 @@ private:
 class ECAirportInfo
 {
 public:
-    // implemented by Justin Hasler
+    // implemented by Justin 
     static ECAirportInfo& Instance()
     {
         static ECAirportInfo inst;
@@ -75,7 +75,7 @@ public:
 private:
    // your code 
     ECAirportInfo(){}
-    // implemented by Justin Hasler
+    // implemented by Justin 
     //static ECAirportInfo *pInst;
     // static ECAirportInfo *pInst; dont need this if inst is initialized in Instance()
     std::map<std::string, ECAirport> ports; // set of airports 
