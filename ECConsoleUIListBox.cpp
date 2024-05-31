@@ -9,7 +9,7 @@
 #include "ECConsoleUITextLabel.h"
 
 
-// declared in .h file by prof, but fully defined by Justin Hasler
+// declared in .h file by prof, but fully defined by Justin
 ECConsoleUIListBox :: ECConsoleUIListBox(int xUL, int yUL, int xLR, int yLR ) 
 : ECConsoleUIItem(xUL, yUL, xLR, yLR),
 indexChoice(0), handlingKeys(1)
