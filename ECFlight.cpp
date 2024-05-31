@@ -12,7 +12,7 @@
 #include <vector>
 using namespace std;
 
-// declared in .h by prof but defined by Justin Hasler
+// declared in .h by prof but defined by me
 
 //ECAirportInfo &airportInfo = ECAirportInfo::Instance();
 // Get departure time
