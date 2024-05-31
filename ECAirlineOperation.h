@@ -30,11 +30,11 @@ public:
 
 	void addFlight(const std::string &srcAirport, const std::string &destAirport, double tmDepart, int maxPassengers, double costOperate);
 	
-	// implemented by Justin Hasler
+	// implemented by Justin  
 	void InitializeO(ECAirlineFinancial *financial);
 	friend class ECAirlineTicketing;
 private:
-	// implemented by Justin Hasler
+	// implemented by Justin  
 	std::vector<ECFlight> listFlights;
 	ECAirlineFinancial *pAirlineFin;
 
