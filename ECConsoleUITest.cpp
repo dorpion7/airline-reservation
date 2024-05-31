@@ -16,7 +16,7 @@
 
 using namespace  std;
 
-// implemented by Justin Hasler
+// implemented by Justin 
 void ReadAirportFlightData(const std::string &input, ECAirlineSimulator &sim, std::vector<std::string> &codes,std::vector<std::string>& descs,std::vector<std::tuple<std::string, std::string, double>>& distancesBtw,std::vector<std::tuple<std::string, std::string, double, int, int>>& flights)
 {
     std::ifstream file(input);
@@ -117,7 +117,7 @@ static void Test1(ECConsoleUIView &viewUI, ECAirlineSimulator &sim,
 
 int main(int argc, char *argv[])
 {
-    // implemented by Justin Hasler (slightly modified from Prof's code)
+    // implemented by Justin  (slightly modified from Prof's code)
     std::vector<std::string> codes;
     std::vector<std::string> descs;
     std::vector<std::tuple<std::string, std::string, double>> distancesBtw;
