@@ -85,7 +85,7 @@ int ECConsoleUIButton :: GetHighlightPosition(int &xLeft, int &xRight) const
 }
 
 // handle enter key
-// implemented by Justin Hasler
+// implemented by Justin 
 void ECConsoleUIButton :: HdlKeyEnter()
 {
     box3.clear(); // clear last entry to create new itinerary
