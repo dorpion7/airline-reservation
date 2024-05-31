@@ -45,7 +45,7 @@ public:
 
     
 private:
-    // implemented by Justin Hasler
+    // implemented by Justin  
     std::string strButton;
     ECConsoleUIListBox &box1;
     ECConsoleUIListBox &box2;
