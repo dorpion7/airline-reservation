@@ -15,10 +15,10 @@
 // this is a class for pricing an itinerary
 
 
-// implemented by Justin Hasler
+// implemented by me
 class ECAirlineOperation; // Forward declaration
 
-// implemented by Justin Hasler
+// implemented by me
 class ECAirlineFinancial
 {
 public:
