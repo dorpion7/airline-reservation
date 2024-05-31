@@ -15,7 +15,7 @@
 using namespace std;
 
 
-// implemented by Justin Hasler
+// implemented by Justin 
 void ECAirlineFinancial::InitializeF(ECAirlineOperation *op)
 {
 	pAirlineOp = op;
