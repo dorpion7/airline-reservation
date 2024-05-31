@@ -44,7 +44,7 @@ public:
 
 private:
     // your code
-    // implemented by Justin Hasler
+    // implemented by Justin 
     double depTime;
     double arrTime;
     int maxPass;
