@@ -15,7 +15,7 @@ using namespace std;
 
 // itinerary
 
-// declared in .h by prof but defined by Justin Hasler
+// declared in .h by prof but defined by Justin 
 // access/edit segments
 // Return the number of segments of the itineary
 int ECFlightItinerary::GetNumSegments() const
