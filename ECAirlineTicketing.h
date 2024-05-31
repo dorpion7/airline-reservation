@@ -25,13 +25,13 @@ public:
 	ECAirlineTicketing(){}
 	virtual ~ECAirlineTicketing(){}
 	
-	// implemented by Justin Hasler
+	// implemented by Justin  
 	void InitializeT(ECAirlineOperation *op, ECAirlineFinancial *financial);
 	void FindFlightRecurse(const std::string &src, const std::string &dest, const std::string& currentAirport, ECFlightItinerary& currentItinerary, std::vector<ECFlightItinerary> &listItineraries) const;
 	void SearchForItinerary(const std::string &src, const std::string &dest, std::vector<ECFlightItinerary> &listItineraries) const;
 	bool CheckValidity(const ECFlightItinerary &currentItin, const ECFlight &PotentialFlight) const;
 private:
-	// implemented by Justin Hasler
+	// implemented by Justin  
     ECAirlineOperation *pAirlineOp;
     ECAirlineFinancial *pAirlineFin;
 };
