@@ -18,7 +18,7 @@ using namespace std;
 
 
 // Some methods were declared in the .h file by Professor
-// but they were all fully defined in this file by Justin Hasler
+// but they were all fully defined in this file by Justin  
 ECAirlineSimulator :: ECAirlineSimulator()
 {
 	pAirlineOp = new ECAirlineOperation;
@@ -33,7 +33,7 @@ ECAirlineSimulator :: ~ECAirlineSimulator()
     delete pAirlineFin;
     delete pAirlineTicket;
 }
-// implemented by Justin Hasler
+// implemented by Justin  
 void ECAirlineSimulator ::Init()
 {
 	pAirlineOp->InitializeO(pAirlineFin);
