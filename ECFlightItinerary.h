@@ -50,15 +50,15 @@ public:
 
     std::string GetDest() const;
 
-    // implemented by Justin Hasler
+    // implemented by Justin 
     void RemoveLastFlight();
 
-    // implemented by Justin Hasler
+    // implemented by Justin 
     std::string Info(int i) const; // dumps itinerary stuff
     
 private:
     // your code
-    // implemented by Justin Hasler
+    // implemented by Justin 
     std::vector<ECFlight*> segments;
     ECAirlineFinancial *pAirlineFin;
     int numSegs; // is this redundant because numSegs would just be segments.size()? yes
